@@ -145,7 +145,7 @@ To get an instant stream link, just forward any media to the bot and boom, its f
 ## Demo Bot:
 <a href="https://t.me/AH_File2Link_Bot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-blue.svg?logo=telegram"></a>
 
-[![Heroku Awake](https://github.com/P-Phreak/Pyro-FileStreamBot/actions/workflows/Alive.yml/badge.svg?event=status)](https://github.com/P-Phreak/Pyro-FileStreamBot/actions/workflows/Alive.yml)
+[![Heroku Awake](https://github.com/akshay695/Pyro-FileStreamBot/actions/workflows/Alive.yml/badge.svg?event=status)](https://github.com/P-Phreak/Pyro-FileStreamBot/actions/workflows/Alive.yml)
 
 ## Special Features:
 - Added Mongo Database Support!
