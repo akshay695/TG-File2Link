@@ -26,7 +26,7 @@ async def start(b, m):
                 if user.status == "banned":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TeleRoid14).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Unlimited_Storage_Bot).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -56,9 +56,7 @@ async def start(b, m):
             text="🙋 Hello!\n\nI am a Simple Telegram File to Public link generator bot.\n\nI can generate Direct URL of any Telegram Files Or Videos for Downloading & Online Streaming!!!\n\n☛ /help for More\n\nNB:🔞 Don't forward Porn Files to me, You will Get Permanent B A N.\n\nSend me any file & see the magic!",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup"), InlineKeyboardButton("⭕ Support ⭕", url="https://t.me/TeleRoid14")],
-                    [InlineKeyboardButton("👥 BotList", url="https://t.me/joinchat/t1ko_FOJxhFiOThl"), InlineKeyboardButton("♻ Github", url="https://github.com/PredatorHackerzZ")],
-                    [InlineKeyboardButton("About Meh ♐", url="https://t.me/TheTeleRoid")]
+                    [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/Unlimited_Storage_Bot"),]
                 ]
             ),
             disable_web_page_preview=True
@@ -70,7 +68,7 @@ async def start(b, m):
                 if user.status == "banned":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TeleRoid14).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Unlimited_Storage_Bot).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -96,7 +94,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/TeleRoid14).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/Unlimited_Storage_Bot).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -146,7 +144,7 @@ async def help_handler(bot, message):
             if user.status == "banned":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TeleRoid14).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Unlimited_Storage_Bot).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -168,7 +166,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/TeleRoid14).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/Unlimited_Storage_Bot).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -178,9 +176,7 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/TeleRoidGroup"), InlineKeyboardButton("😇 Support", url="https://t.me/TeleRoid14")],
-                [InlineKeyboardButton("🚸 Powered By ", url="https://t.me/MoviesFlixers_DL"), InlineKeyboardButton("💰 Donate", url="https://t.me/PayForBotZ")],
-                [InlineKeyboardButton("👨‍💻 Developer", url="https://t.me/TheTeleRoid")]
+                [InlineKeyboardButton("⭕ Channel ⭕", url="https://t.me/Unlimited_Storage_Bot"),]
             ]
         )
     )
@@ -199,7 +195,7 @@ async def about_handler(bot, message):
             if user.status == "banned":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TeleRoid14).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Unlimited_Storage_Bot).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -221,7 +217,7 @@ async def about_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/TeleRoid14).",
+                text="Something went Wrong. Contact my [Support Group](https://t.me/Unlimited_Storage_Bot).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -230,13 +226,11 @@ async def about_handler(bot, message):
 
 ╭──────[🔅TeleRoidFile2Link🔅]──────⍟
 │
-├<b>🤖Bot Name : <a href='https://t.me/teleroid_file2link_bot'>File To Link</a></b>
+├<b>🤖Bot Name : <a href='https://t.me/Files2LinkA1bot'>File To Link</a></b>
 │
-├<b>📢 Channel : <a href='https://t.me/TeleRoidGroup'>@TeleRoidGroup</a></b>
+├<b>📢 Channel : <a href='https://t.me/Unlimited_Storage_Bot'>@TeleRoidGroup</a></b>
 │
-├<b>👥 Version : <a href='https://t.me/TeleRoid_Renamer_bot'>0.9.2 beta</a></b>
-│
-├<b>💢 Source : <a href='https://github.com/PredatorHackerzZ/TG-File2Link'>Click Here</a></b>
+├<b>👥 Version : <a href='https://t.me/Unlimited_Storage_Bot'>1.9.2 beta</a></b>
 │
 ├<b>🌐 Server : <a href='https://heroku.com'>Heroku</a></b>
 │
@@ -244,17 +238,13 @@ async def about_handler(bot, message):
 │
 ├<b>㊙ Language: <a href='https://www.python.org'>Python 3.9.9</a></b>
 │
-├<b>👨‍💻 Developer : <a href='https://t.me/PredatorHackerZ'>꧁ ƤℜɆĐ₳₮Øℜ 🇮🇳 ꧂</a></b>
-│
-├<b>🚸 Powered By : <a href='https://t.me/Moviesflixers_DL'>@HindiWebNetwork</a></b>
 │
 ╰─────────[Thanks 😊]────────⍟""",
   parse_mode="html",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("🚸 Powered By ", url="https://t.me/MoviesFlixers_DL"), InlineKeyboardButton("💰 Donate", url="https://paypal.me/AbhishekKumarIN47")],
-                [InlineKeyboardButton("Need Private Bot ❓", url="https://t.me/PayForBotz")]
+                [InlineKeyboardButton("🚸 Powered By ", url="https://t.me/Unlimited_Storage_Bot"),]
             ]
         )
     )
